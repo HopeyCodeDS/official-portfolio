@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opeyemi Momodu — AI Software Engineer</title>
+    <meta name="description" content="AI Software Engineer specializing in Generative AI, Autonomous Agents, and LLM Systems. Building intelligent systems that solve real problems.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Grain overlay -->
+    <div class="grain"></div>
+
+    <!-- Scroll progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ============================================= -->
+    <!--  NAVIGATION                                    -->
+    <!--  UPDATE: name, links                           -->
+    <!-- ============================================= -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <!-- UPDATE: Your name/initials -->
+            <a href="#hero" class="nav-logo">opeyemi<span class="accent-dot">.</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link nav-link--cta">Let's Talk</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile overlay menu -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#experience" class="mobile-nav-link">Experience</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+
+    <!-- ============================================= -->
+    <!--  HERO                                          -->
+    <!--  UPDATE: name, tagline, description            -->
+    <!-- ============================================= -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-lines"></div>
+        <div class="hero-content">
+            <div class="hero-eyebrow reveal" data-delay="0">
+                <span class="eyebrow-line"></span>
+                <!-- UPDATE: Your tagline -->
+                <span>AI Software Engineer — Antwerp, Belgium</span>
+            </div>
+            <!-- UPDATE: Your name -->
+            <h1 class="hero-name reveal" data-delay="1">
+                <span class="hero-name-line">Opeyemi</span>
+                <span class="hero-name-line hero-name-line--outline">Momodu</span>
+            </h1>
+            <!-- UPDATE: Your description -->
+            <p class="hero-description reveal" data-delay="2">
+                I build <em>intelligent systems</em> that solve real problems — from autonomous AI agents 
+                and RAG pipelines to production-grade LLM platforms that automate complex workflows.
+            </p>
+            <div class="hero-actions reveal" data-delay="3">
+                <a href="#projects" class="btn btn--primary">View Projects</a>
+                <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+            </div>
+            <div class="hero-scroll-hint reveal" data-delay="4">
+                <div class="scroll-line"></div>
+                <span>Scroll to explore</span>
+            </div>
+        </div>
+        <div class="hero-aside reveal" data-delay="2">
+            <!-- UPDATE: Quick facts -->
+            <div class="hero-meta-item">
+                <span class="meta-label">Focus</span>
+                <span class="meta-value">Generative AI · Autonomous Agents · LLM Systems</span>
+            </div>
+            <div class="hero-meta-item">
+                <span class="meta-label">Availability</span>
+                <span class="meta-value status-available">Immediate — Open to Remote & Freelance</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!--  ABOUT                                         -->
+    <!--  UPDATE: bio text, stats                       -->
+    <!-- ============================================= -->
+    <section id="about" class="section">
+        <div class="section-inner section-inner--split">
+            <div class="section-left">
+                <span class="section-label reveal">01 / About</span>
+                <h2 class="section-heading reveal">
+                    Building at the intersection of<br>
+                    <span class="text-accent">AI research</span> &amp; 
+                    <span class="text-accent">software engineering</span>
+                </h2>
+            </div>
+            <div class="section-right">
+                <!-- UPDATE: Your bio -->
+                <p class="body-text reveal">
+                    I'm an AI Software Engineer specializing in generative AI systems, autonomous agents, 
+                    and scalable AI architectures, with a track record of building production-grade AI products 
+                    that solve real business problems.
+                </p>
+                <p class="body-text reveal">
+                    I've designed and deployed multi-agent AI systems, RAG pipelines, and LLM-powered platforms 
+                    that automate complex workflows, improve decision-making, and enhance operational efficiency. 
+                    I bring strong experience integrating OpenAI, Anthropic, and open-source models into robust, 
+                    observable, and secure systems.
+                </p>
+                <p class="body-text reveal">
+                    I combine a <em>product + systems mindset</em> — backend engineering, data pipelines, and AI model 
+                    orchestration — to deliver reliable, high-performance solutions in cross-functional environments.
+                </p>
+
+                <!-- UPDATE: Your stats -->
+                <div class="stats-row reveal">
+                    <div class="stat">
+                        <span class="stat-number">36+</span>
+                        <span class="stat-text">GitHub Repos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-text">AI Projects Shipped</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-text">Certifications</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!--  SKILLS                                        -->
+    <!--  UPDATE: skill categories & items              -->
+    <!-- ============================================= -->
+    <section id="skills" class="section section--dark">
+        <div class="section-inner">
+            <span class="section-label reveal">02 / Skills</span>
+            <h2 class="section-heading reveal">Core Tech Stack</h2>
+
+            <div class="skills-masonry">
+
+                <div class="skill-block reveal">
+                    <h3 class="skill-block-title">AI & Agents</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Autonomous AI Agents</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">LangGraph</span>
+                        <span class="skill-tag">AutoGen</span>
+                        <span class="skill-tag">RAG / GraphRAG</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">DeepEval</span>
+                        <span class="skill-tag">Model Evaluation</span>
+                    </div>
+                </div>
+
+                <div class="skill-block reveal">
+                    <h3 class="skill-block-title">LLM Providers</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Anthropic Claude API</span>
+                        <span class="skill-tag">OpenAI (GPT)</span>
+                        <span class="skill-tag">AWS Bedrock</span>
+                        <span class="skill-tag">Hugging Face</span>
+                        <span class="skill-tag">Ollama</span>
+                        <span class="skill-tag">Llama</span>
+                        <span class="skill-tag">Gemma</span>
+                    </div>
+                </div>
+
+                <div class="skill-block reveal">
+                    <h3 class="skill-block-title">Backend & Architecture</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python (FastAPI, Flask)</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Java (Spring Boot)</span>
+                        <span class="skill-tag">Hexagonal Architecture</span>
+                        <span class="skill-tag">DDD / CQRS</span>
+                        <span class="skill-tag">Event Sourcing</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Microservices</span>
+                    </div>
+                </div>
+
+                <div class="skill-block reveal">
+                    <h3 class="skill-block-title">Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS (EC2, Lambda, S3)</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">GitLab CI/CD</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">OpenTelemetry</span>
+                    </div>
+                </div>
+
+                <div class="skill-block reveal">
+                    <h3 class="skill-block-title">Data & Vector Stores</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Neo4j</span>
+                        <span class="skill-tag">ChromaDB</span>
+                        <span class="skill-tag">Vector Search</span>
+                        <span class="skill-tag">ETL Pipelines</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-block reveal">
+                    <h3 class="skill-block-title">Frontend & QA</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">AI Testing Pyramids</span>
+                        <span class="skill-tag">OAuth2 / JWT / RBAC</span>
+                        <span class="skill-tag">PII-Safe Telemetry</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!--  PROJECTS                                      -->
+    <!--  UPDATE: project names, descriptions, links    -->
+    <!-- ============================================= -->
+    <section id="projects" class="section">
+        <div class="section-inner">
+            <span class="section-label reveal">03 / Projects</span>
+            <h2 class="section-heading reveal">Selected Work</h2>
+            <p class="section-description reveal">Production-grade AI systems built to solve real business problems.</p>
+
+            <div class="projects-list">
+
+                <article class="project reveal">
+                    <div class="project-index">01</div>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3 class="project-title">Multi-Agent AI Orchestration Framework</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/HopeyCodeDS/agent-orchestration-framework" target="_blank" class="project-ext-link">GitHub ↗</a>
+                            </div>
+                        </div>
+                        <p class="project-desc">
+                            Production-grade multi-agent system coordinating specialized agents (retrieval, reasoning, 
+                            validation, verification) for complex workflow automation. Features circuit breakers, 
+                            exponential backoff, async scalable API layer, end-to-end observability with OpenTelemetry, 
+                            and AI-specific QA — hallucination detection, reasoning fidelity scoring, and automated evaluation.
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span><span>FastAPI</span><span>LangGraph</span>
+                            <span>OpenTelemetry</span><span>Docker</span><span>GitHub Actions</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-index">02</div>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3 class="project-title">Sortex — Intelligent Document Processing</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/HopeyCodeDS/sortex-ai" target="_blank" class="project-ext-link">GitHub ↗</a>
+                            </div>
+                        </div>
+                        <p class="project-desc">
+                            Production-grade AI system automating logistics documents (CMR, invoices, delivery notes). 
+                            Pluggable LLM architecture (OpenAI / Ollama) for flexible provider switching and cost optimization. 
+                            OCR + validation pipeline with high-accuracy extraction, human-in-the-loop review, 
+                            and event-driven downstream integrations with retry logic.
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span><span>FastAPI</span><span>PaddleOCR</span>
+                            <span>OpenAI API</span><span>Ollama</span><span>Redis</span><span>Docker</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-index">03</div>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3 class="project-title">VentureSignal — AI Decision Intelligence</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/HopeyCodeDS/venturesignal" target="_blank" class="project-ext-link">GitHub ↗</a>
+                            </div>
+                        </div>
+                        <p class="project-desc">
+                            AI-driven company analysis platform simulating a VC analyst workflow. Agentic scoring system 
+                            evaluating startups across 5 dimensions using structured LLM outputs. Data ingestion pipelines 
+                            converting unstructured data into structured insights, with configurable prompts turning 
+                            business strategy into executable AI logic.
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span><span>FastAPI</span><span>React</span>
+                            <span>Anthropic Claude API</span><span>Pydantic</span><span>Docker</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-index">04</div>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3 class="project-title">Serverless RAG — Document Q&A System</h3>
+                            <div class="project-links">
+                                <a href="https://rag-frontend-zeta.vercel.app/" target="_blank" class="project-ext-link project-ext-link--live">Live Demo ↗</a>
+                                <a href="https://github.com/HopeyCodeDS/serverless-rag-api" target="_blank" class="project-ext-link">GitHub ↗</a>
+                            </div>
+                        </div>
+                        <p class="project-desc">
+                            Serverless RAG system on AWS Lambda using LangChain, ChromaDB, and AWS Bedrock (Claude 3 Haiku + 
+                            Amazon Titan embeddings). Automated document ingestion with deterministic chunk IDs for 
+                            zero-downtime refresh. End-to-end CI/CD via GitHub Actions — pytest, Docker build check, 
+                            then ECR push on merge.
+                        </p>
+                        <div class="project-tags">
+                            <span>AWS Lambda</span><span>LangChain</span><span>ChromaDB</span>
+                            <span>AWS Bedrock</span><span>Claude 3</span><span>Docker</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-index">05</div>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3 class="project-title">Platform Chatbot — Context-Aware RAG Assistant</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/HopeyCodeDS/RAG-based-chatbot-integration" target="_blank" class="project-ext-link">GitHub ↗</a>
+                            </div>
+                        </div>
+                        <p class="project-desc">
+                            Retrieval-augmented chatbot with semantic vector search (HuggingFace Sentence Transformers), 
+                            multi-domain support (game rules, platform guidance, Q&A), deployed to Azure App Service via 
+                            automated GitLab CI/CD. Full data ingestion and retrieval pipelines with chunking strategy 
+                            and query-time relevance filtering.
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span><span>FastAPI</span><span>HuggingFace</span>
+                            <span>ChromaDB</span><span>Azure</span><span>GitLab CI/CD</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-index">06</div>
+                    <div class="project-body">
+                        <div class="project-top">
+                            <h3 class="project-title">Automated Label Detection & Matching</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/HopeyCodeDS/automated-label-detection-and-matching-OCRservice" target="_blank" class="project-ext-link">GitHub ↗</a>
+                            </div>
+                        </div>
+                        <p class="project-desc">
+                            OCR-powered application automating warehouse label processing and matching workflows. 
+                            Real-time label detection using computer vision with end-to-end backend pipeline for 
+                            document automation and mobile frontend integration for operational use.
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span><span>OCR</span><span>Computer Vision</span>
+                            <span>FastAPI</span><span>Mobile</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="projects-more reveal">
+                <a href="https://github.com/HopeyCodeDS?tab=repositories" target="_blank" class="link-arrow">
+                    View all repositories on GitHub <span class="arrow-icon">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!--  EXPERIENCE                                    -->
+    <!--  UPDATE: roles, dates, descriptions            -->
+    <!-- ============================================= -->
+    <section id="experience" class="section section--dark">
+        <div class="section-inner">
+            <span class="section-label reveal">04 / Experience</span>
+            <h2 class="section-heading reveal">Career & Certifications</h2>
+
+            <div class="experience-list">
+
+                <div class="exp-item reveal">
+                    <div class="exp-date">Mar 2025 — Jun 2025</div>
+                    <div class="exp-content">
+                        <h3 class="exp-role">AI Engineer Intern</h3>
+                        <p class="exp-company">Nalantis — Antwerp, Belgium</p>
+                        <ul class="exp-details">
+                            <li>Architected an AI-powered recruitment intelligence system using GraphRAG, Neo4j, and LangGraph — improving semantic skill matching accuracy by 25%</li>
+                            <li>Developed autonomous AI agents for multi-hop reasoning, outperforming traditional RAG in relational understanding and candidate filtering</li>
+                            <li>Built a Job Candidate Knowledge Graph aligned with ESCO taxonomy, enabling scalable, multilingual AI-driven queries</li>
+                            <li>Implemented QA with DeepEval (answer relevancy, faithfulness), achieving >90% accuracy post-deployment</li>
+                        </ul>
+                        <div class="exp-tags">
+                            <span>Python</span><span>LangGraph</span><span>Neo4j</span>
+                            <span>GraphRAG</span><span>NLP</span><span>DeepEval</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ADD MORE EXPERIENCE — duplicate the exp-item block above -->
+
+            </div>
+
+            <div class="certs-section reveal">
+                <h3 class="certs-title">Certifications</h3>
+                <div class="certs-grid">
+                    <div class="cert-item">
+                        <span class="cert-status cert-status--done">✓</span>
+                        <div>
+                            <span class="cert-name">Agentic AI</span>
+                            <span class="cert-issuer">DeepLearning.AI</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-status cert-status--progress">◐</span>
+                        <div>
+                            <span class="cert-name">IBM AI Engineering Professional Certificate</span>
+                            <span class="cert-issuer">Expected: Mar 2026</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-status cert-status--progress">◐</span>
+                        <div>
+                            <span class="cert-name">Azure AI Engineer Associate</span>
+                            <span class="cert-issuer">Microsoft — Exam: Apr 2026</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-status cert-status--done">✓</span>
+                        <div>
+                            <span class="cert-name">Complete ML & Data Science Bootcamp</span>
+                            <span class="cert-issuer">Udemy</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-status cert-status--done">✓</span>
+                        <div>
+                            <span class="cert-name">Statistics for Data Science & Business</span>
+                            <span class="cert-issuer">Udemy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!--  CONTACT / FOOTER                              -->
+    <!--  UPDATE: email, links                          -->
+    <!-- ============================================= -->
+    <section id="contact" class="section section--contact">
+        <div class="section-inner">
+            <span class="section-label reveal">05 / Contact</span>
+            <h2 class="contact-heading reveal">
+                Let's build something<br>
+                <span class="text-accent">that matters.</span>
+            </h2>
+            <p class="contact-text reveal">
+                I'm open to full-time roles, freelance projects, and collaborations in AI engineering, 
+                LLM application development, and scalable system design.
+            </p>
+            <div class="contact-links reveal">
+                <a href="mailto:opeyemimomodu2016@gmail.com" class="contact-link-big">
+                    opeyemimomodu2016@gmail.com
+                </a>
+            </div>
+            <div class="contact-socials reveal">
+                <a href="https://github.com/HopeyCodeDS" target="_blank" class="social-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/opeyemi-momodu-b92212b2/" target="_blank" class="social-link">LinkedIn</a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <span>© 2025 Opeyemi Momodu</span>
+                <span>Designed & built with purpose</span>
+            </div>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
